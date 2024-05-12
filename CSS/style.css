@@ -1,0 +1,122 @@
+
+/* ======== Globale ======= */
+.w-80 {
+  width: 80%;
+  margin: auto;
+}
+
+.m-30 {
+  margin-top: -50px;
+}
+li,
+a {
+  margin-bottom: 0;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+a:hover {
+  color: red;
+}
+
+/* ======== section header ======= */
+
+header .contint figure .layer {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+}
+
+header .contint button:hover {
+  transition: all 0.3s;
+  background-color: white !important;
+  color: black !important;
+}
+
+/* ======== section balck ======= */
+section.black .part-right .layer {
+  position: absolute;
+  bottom: 5%;
+  left: 7%;
+  right: 7%;
+}
+
+section.black .part-right figure:hover {
+  animation: photo-1 3s infinite ease-in-out;
+}
+section.black .part-right figure:hover img {
+  opacity: 0;
+}
+/* ======== section balck ======= */
+section.sale-50 {
+  height: 70vh;
+  background-image: url(../imgs/background-1.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* ======== section prand 1 ======= */
+section.prand_1 figure:hover .layer {
+  transition: all 0.2s;
+  background-color: rgba(0, 0, 0, 0.749) !important;
+  color: white;
+}
+
+/* ======== section look 1 ======= */
+
+.vh-70 {
+  height: 70vh;
+}
+
+section.look figure .layer {
+  position: relative;
+  width: 43%;
+  bottom: 40%;
+  left: 10%;
+}
+section.look figure .layer:hover a {
+  color: red;
+}
+
+.bg-men {
+  background-image: url(../imgs/background-2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/* ========  trint pranding ======= */
+
+.trind-prand {
+  background-image: url(../imgs/background-3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.trind-prand div {
+  border: 2px solid rgba(0, 0, 0, 0.221);
+}
+
+/* ======== footer ======= */
+footer {
+  background-color: rgba(0, 0, 0, 0.897);
+}
+footer li {
+  color: white;
+  margin-top: 7px;
+}
+
+@keyframes photo-1 {
+  0% {
+    background-image: url(../imgs/look-1-2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  100% {
+    background-image: url(../imgs/look-1-2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
